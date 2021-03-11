@@ -2,7 +2,7 @@ library inflection.singular_verb.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection2/src/singular_verb.dart';
+import 'package:inflection3/src/singular_verb.dart';
 
 void main() {
   group("The SingularVerbEncoder", () {

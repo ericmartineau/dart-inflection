@@ -1,4 +1,4 @@
-import 'package:inflection2/inflection2.dart';
+import 'package:inflection3/inflection3.dart';
 
 main() {
   // Using 'shortcut' functions.

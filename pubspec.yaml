@@ -1,11 +1,11 @@
-name: inflection2
-version: 0.4.3
+name: inflection3
+version: 0.5.3
 environment:
-  sdk: ">=1.8.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 authors:
   - Tobe O <thosakwe@gmail.com>
   - George Moschovitis <george.moschovitis@gmail.com>
 description: Grammatical Inflection encoders.
-homepage: https://github.com/thosakwe/dart-inflection
+homepage: https://github.com/ericmartineau/dart-inflection
 dev_dependencies:
   test: any

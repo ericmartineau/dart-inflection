@@ -2,7 +2,7 @@ library inflection.plural_verb.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection2/src/plural_verb.dart';
+import 'package:inflection3/src/plural_verb.dart';
 
 void main() {
   group("The PluralVerbEncoder", () {

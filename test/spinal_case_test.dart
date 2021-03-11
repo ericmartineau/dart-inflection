@@ -2,7 +2,7 @@ library inflection.spinal_case.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection2/src/spinal_case.dart';
+import 'package:inflection3/src/spinal_case.dart';
 
 void main() {
   group("The SpinalCaseEncoder", () {

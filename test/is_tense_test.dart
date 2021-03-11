@@ -2,7 +2,7 @@ library inflection.is_tense.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection2/src/is_tense.dart';
+import 'package:inflection3/src/is_tense.dart';
 
 void main() {
   group("isTense", () {

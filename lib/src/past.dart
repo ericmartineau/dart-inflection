@@ -35,7 +35,7 @@ class PastEncoder extends Converter<String, String> {
               presentOrParticiple +
               r'$',
           caseSensitive: false),
-      (Match m) => (m[1] == null) ? past : m[1] + past
+      (Match m) => (m[1] == null) ? past : m[1]! + past
     ]);
   }
 
@@ -46,7 +46,7 @@ class PastEncoder extends Converter<String, String> {
         RegExp reg = new RegExp(
             r'^(back|dis|for|fore|in|inter|mis|off|over|out|par|pre|re|type|un|under|up)(.+)$');
         if (reg.hasMatch(word)) {
-          if (!verbsEndingWithEd.contains(reg.firstMatch(word).group(2)))
+          if (!verbsEndingWithEd.contains(reg.firstMatch(word)?.group(2)))
             return word;
         } else if (!verbsEndingWithEd.contains(word)) {
           return word;

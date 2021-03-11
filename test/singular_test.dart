@@ -2,8 +2,8 @@ library inflection.singular.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection2/src/singular.dart';
-import 'package:inflection2/src/uncountable_nouns.dart';
+import 'package:inflection3/src/singular.dart';
+import 'package:inflection3/src/uncountable_nouns.dart';
 
 void main() {
   group("The SingularEncoder", () {
