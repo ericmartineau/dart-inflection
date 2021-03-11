@@ -1,3 +1,12 @@
+include: package:sunny_dart/analysis_options.yaml
 analyzer:
-  strong-mode:
-    implicit-casts: false
+  enable-experiment:
+    - variance
+  errors:
+    annotate_overrides: info
+    always_declare_return_types: info
+
+linter:
+  rules:
+    annotate_overrides: info
+    always_declare_return_types: info
