@@ -1,3 +1,6 @@
+## [0.5.3+1]
+ * Null-safety
+
 # Changelog
 
 ## 0.4.3
