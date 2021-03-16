@@ -25,24 +25,24 @@ class SingularEncoder extends Converter<String, String> {
       ],
       [r'(^analy)(sis|ses)$', (Match m) => '${m[1]}sis'], // TODO: not needed?
       [r'([^f])ves$', (Match m) => '${m[1]}fe'],
-      [r'(hive|tive)s$', (Match m) => m[1]],
+      [r'(hive|tive)s$', (Match m) => m[1]!],
       [r'([lr])ves$', (Match m) => '${m[1]}f'],
       [r'([^aeiouy]|qu)ies$', (Match m) => '${m[1]}y'],
       [r'(s)eries$', (Match m) => '${m[1]}eries'], // TODO: uncountable
       [r'(m)ovies$', (Match m) => '${m[1]}ovie'],
-      [r'(x|ch|ss|sh)es$', (Match m) => m[1]],
+      [r'(x|ch|ss|sh)es$', (Match m) => m[1]!],
       [r'^(m|l)ice$', (Match m) => '${m[1]}ouse'],
-      [r'(bus)(es)?$', (Match m) => m[1]],
-      [r'(shoe)s$', (Match m) => m[1]],
+      [r'(bus)(es)?$', (Match m) => m[1]!],
+      [r'(shoe)s$', (Match m) => m[1]!],
       [r'(cris|test)(is|es)$', (Match m) => '${m[1]}is'],
       [r'^(a)x[ie]s$', (Match m) => '${m[1]}xis'],
       [r'(octop|vir)(us|i)$', (Match m) => '${m[1]}us'],
-      [r'(alias|status)(es)?$', (Match m) => m[1]],
-      [r'^(ox)en', (Match m) => m[1]],
+      [r'(alias|status)(es)?$', (Match m) => m[1]!],
+      [r'^(ox)en', (Match m) => m[1]!],
       [r'(vert|ind)ices$', (Match m) => '${m[1]}ex'],
       [r'(matr)ices$', (Match m) => '${m[1]}ix'],
-      [r'(quiz)zes$', (Match m) => m[1]],
-      [r'(database)s$', (Match m) => m[1]]
+      [r'(quiz)zes$', (Match m) => m[1]!],
+      [r'(database)s$', (Match m) => m[1]!]
     ]
         .reversed
         .forEach((rule) => addInflectionRule(rule.first as String, rule.last));
