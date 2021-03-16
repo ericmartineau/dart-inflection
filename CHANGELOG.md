@@ -1,3 +1,11 @@
+## [0.5.3+2]
+ * Reinstall gems
+Version bump to: 0.5.3#8001
+Merge pull request #1 from csells/master
+update to pass all the tests
+update to pass all the tests
+Version bump to: 0.5.3#8001
+
 ## [0.5.3+1]
  * Null-safety
 

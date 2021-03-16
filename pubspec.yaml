@@ -1,5 +1,5 @@
 name: inflection3
-version: 0.5.3+1
+version: 0.5.3+2
 homepage: https://github.com/ericmartineau/dart-inflection
 description: Grammatical Inflection encoders.
 environment: 
